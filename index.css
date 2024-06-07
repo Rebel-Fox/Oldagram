@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.container{
+    width: 375px;
+    margin:0 auto;
+    border:1px solid black;
+    padding: 15px;
+}
+
+/*header style*/
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width:127px;
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+/*main section-1*/
+.credentials .avatar{
+    float: left;
+    padding-right: 10px;
+}
+
+h3{
+    margin:0;
+
+}
+
+.credentials p{
+    margin: 0;
+}
+
+
+
