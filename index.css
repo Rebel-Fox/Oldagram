@@ -4,6 +4,7 @@ body {
 }
 
 .container{
+    box-sizing: border-box;
     width: 375px;
     margin:0 auto;
     border:1px solid black;
@@ -16,6 +17,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border-bottom:1px solid gray ;
 }
 
 .logo{
@@ -26,24 +28,64 @@ body {
     width: 34px;
     height: 34px;
     border-radius: 50%;
-    border: 1px solid black;
 
 }
 
 /*main section-1*/
-.credentials .avatar{
+.credentials img{
     float: left;
-    padding-right: 10px;
 }
 
 h3{
     margin:0;
+    padding-left: 50px;
+    font-size: 16px;
 
 }
 
 .credentials p{
+    margin:0;
+    padding-left: 50px;
+    font-size: 15px;
+    margin-top: -7px;
+}
+
+/*section 2*/
+.post{
+    padding: 0;
+}
+
+.postcontent{
+    width: 100%;
+}
+
+/*section 3*/
+.interaction{
+    display: flex;
+    gap:11px
+}
+.interaction img{
+    width: 23px;
+    /* border:1px solid black; */
+}
+
+/*section 4*/
+.output{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top:0;
+}
+
+.likes{
     margin: 0;
 }
 
+.comment{
+    font-weight: 400;
+}
+
+.last-para{
+    margin: 0;
+}
 
 
