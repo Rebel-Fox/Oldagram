@@ -7,9 +7,11 @@ body {
     box-sizing: border-box;
     width: 375px;
     margin:0 auto;
-    border:1px solid black;
+    /* border:1px solid black; */
     padding: 15px;
 }
+/*typography*/
+
 
 /*header style*/
 .header{
@@ -62,11 +64,22 @@ h3{
 /*section 3*/
 .interaction{
     display: flex;
-    gap:11px
+    gap:2px;
 }
-.interaction img{
+
+.icon{
+    display: inline-block;
+    background-color: #fff;
+    border: none;
+}
+
+.icon img{
     width: 23px;
-    /* border:1px solid black; */
+}
+
+.icon:hover,
+.icon:focus{
+    opacity:0.6 ;
 }
 
 /*section 4*/
