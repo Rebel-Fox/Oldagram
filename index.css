@@ -10,8 +10,21 @@ body {
     /* border:1px solid black; */
     padding: 15px;
 }
-/*typography*/
 
+/*typography*/
+h3,.credentials p{
+    margin:0;
+    padding-left: 50px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+.credentials p{
+    font-size: 15px;
+    margin-top: -7px;
+}
 
 /*header style*/
 .header{
@@ -30,29 +43,15 @@ body {
     width: 34px;
     height: 34px;
     border-radius: 50%;
-
 }
 
-/*main section-1*/
+/*main*/
+/* section-credentials*/
 .credentials img{
     float: left;
 }
 
-h3{
-    margin:0;
-    padding-left: 50px;
-    font-size: 16px;
-
-}
-
-.credentials p{
-    margin:0;
-    padding-left: 50px;
-    font-size: 15px;
-    margin-top: -7px;
-}
-
-/*section 2*/
+/*section post*/
 .post{
     padding: 0;
 }
@@ -61,7 +60,7 @@ h3{
     width: 100%;
 }
 
-/*section 3*/
+/*section interaction*/
 .interaction{
     display: flex;
     gap:2px;
@@ -82,23 +81,17 @@ h3{
     opacity:0.6 ;
 }
 
-/*section 4*/
+/*section output*/
 .output{
     font-size: 16px;
     font-weight: 700;
     padding-top:0;
 }
 
-.likes{
+.likes,.last-para{
     margin: 0;
 }
 
 .comment{
     font-weight: 400;
 }
-
-.last-para{
-    margin: 0;
-}
-
-
